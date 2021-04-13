@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -14,14 +16,31 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  max-height: 17vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-main {
+  width: fit-content;
+  margin: 2rem auto;
+  max-height: 90vh;
+  box-sizing: border-box;
+  overflow: auto;
+  color: white;
+}
+
+.title {
+  margin: 10px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
 }
 
 .App-link {
